@@ -1,0 +1,12 @@
+.resposive_nav{
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(-100vh);
+}
+.resposive_nav_visible{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+    transform: none;
+}
