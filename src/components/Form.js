@@ -1,8 +1,8 @@
-import * as Reac from 'react';
+
 import {auth,provider } from "../googleSignIn/config"; 
 import {signInWithPopup } from "firebase/auth"
 import React, {useEffect, useState} from 'react';
-import HomePage from "../pages/home";
+
 
 export default function Form(){
     const [value, setValue]= useState('')

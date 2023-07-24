@@ -1,7 +1,7 @@
 // import Form from "../components/Form";
 import {auth,provider,db } from "../googleSignIn/config"; 
 import {signInWithPopup } from "firebase/auth"
-import {  child, get, onValue, ref } from "firebase/database";
+import {  child, get, ref } from "firebase/database";
 import React from 'react';
 import {  useNavigate } from "react-router-dom";
 import divine_logo from "../static/divine_logo.png"

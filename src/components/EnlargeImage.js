@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWindowClose } from "@fortawesome/free-solid-svg-icons";
-import { useRef, useState } from "react";
 export default function EnlargeImage({ visible, closeImage }){
     if (!visible) return null;
 

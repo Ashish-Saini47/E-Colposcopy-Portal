@@ -1,6 +1,6 @@
 import React, { useEffect,  useRef, useState } from 'react';
 import {RiArrowUpSFill, RiArrowDownSFill} from "react-icons/ri";
-import { FaPerson, FaPersonDress } from "react-icons/fa6";
+
 
 function Dropdown() {
     const refClick = useRef(null)

@@ -1,6 +1,5 @@
 import React from 'react';
-// import { db  } from '../googleSignIn/config';
-import { ref,set, onValue, getDatabase} from "firebase/database";
+import { ref,set} from "firebase/database";
 import DatePickerComp from '../components/datePicker';
 import Dropdown from '../components/dropdown';
 import { db } from '../googleSignIn/config';

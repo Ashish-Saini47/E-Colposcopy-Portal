@@ -4,7 +4,6 @@ import Hamburger from "../components/hamburger";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWindowClose } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
-import PatientCard from "../components/patientCard";
 import SearchBar from "../components/SearchBar";
 import PatientLists from "../components/PatientLists";
 

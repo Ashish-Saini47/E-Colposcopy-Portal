@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faXmark} from "@fortawesome/free-solid-svg-icons";
-import ReferedPatientCard from '../components/ReferdPatientCard';
 import { onValue, ref } from 'firebase/database';
 import { db } from '../googleSignIn/config';
 import React from 'react';

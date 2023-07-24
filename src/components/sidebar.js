@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import ceeri_logo from "../static/ceeri_logo.png"
-import divine_logo from "../static/divine logo A.png"
+
 
 export default function Sidebar(){
 

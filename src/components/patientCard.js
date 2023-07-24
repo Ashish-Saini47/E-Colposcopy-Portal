@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import {  get } from "firebase/database";
+
 import { onValue, ref } from "firebase/database";
 import { db } from "../googleSignIn/config";
 

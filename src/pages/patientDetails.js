@@ -16,7 +16,7 @@ import { ref, uploadBytesResumable,getDownloadURL  } from 'firebase/storage';
 import ProgressBar from '@ramonak/react-progress-bar';
 import UploadSuccessDialog from '../components/UploadSuccessDialog';
 import EnlargeImage from '../components/EnlargeImage';
-import { set, ref as databaseRef, update } from 'firebase/database';
+import {  ref as databaseRef, update } from 'firebase/database';
 import { format } from 'date-fns';
 
 

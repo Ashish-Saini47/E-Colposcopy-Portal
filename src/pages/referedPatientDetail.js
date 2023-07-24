@@ -3,7 +3,7 @@ import FixedNavBar from "../components/FixedNavBar";
 import Footer from "../components/Footer";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft , faChevronRight, faCloudUpload, faUserDoctor, faXmark} from "@fortawesome/free-solid-svg-icons";
+import { faCloudUpload, faUserDoctor, faXmark} from "@fortawesome/free-solid-svg-icons";
 import ImageSlider from "../components/ImageSlider";
 import { useState } from "react";
 import { db, storage } from '../googleSignIn/config';
@@ -11,7 +11,7 @@ import { db, storage } from '../googleSignIn/config';
 import { ref, uploadBytesResumable,getDownloadURL  } from 'firebase/storage';
 
 import ProgressBar from '@ramonak/react-progress-bar';
-import { set, ref as databaseRef, update } from 'firebase/database';
+import {  ref as databaseRef, update } from 'firebase/database';
 
 
 import UploadSuccessDialog from '../components/UploadSuccessDialog';

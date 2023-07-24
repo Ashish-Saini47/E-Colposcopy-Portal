@@ -1,4 +1,3 @@
-import * as Reac from 'react';
 
 export default function Hamburger(){
     return(

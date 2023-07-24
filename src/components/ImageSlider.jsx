@@ -4,7 +4,7 @@ import { faChevronLeft , faChevronRight} from "@fortawesome/free-solid-svg-icons
 import SlideImage from './SlideImage';
 import {  onValue, ref } from 'firebase/database';
 import { db } from '../googleSignIn/config';
-import { useRef } from 'react';
+
 
 
 class ImageSlider extends React.Component {
